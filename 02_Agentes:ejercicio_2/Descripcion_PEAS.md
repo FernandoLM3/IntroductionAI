@@ -2,21 +2,30 @@
 
 ## 1. Asistente virtual de voz
 - **Performance:** ...
+Poder reconocer la voz del usuario, entender la conversación del usuario y responder de manera adecuada.
 
 - **Environment:** ...
+El entorno acustico al cual se encuentra el usuario, incluyendo ruido de fondo, diferentes acentos y variaciones en la pronunciación, audifonos, telefonos o incluso dispositivos inteligentes.
+Es parcialmente observable, estocástico, secuencial, dinámico y continuo.
 
 - **Actuators:** ...
-
+Altavoces o la salida de audio al cual el asistente virtual puede responder al usuario, además de posiblemente interfaces de video o indicadores visuales.
 - **Sensors:** ...
+Microfonos, sensores de proximidad, indicador GPS.
+<body>Es parcialmente observable, ya que el agente no tiene acceso completo al usuario, estocástico ya que puede haber variaciones en lo que se pida, en la voz del usuario, el ruido y el entorno, secuencial ya que lo que haga el usuario dice afecta a lo que se vaya a hacer en un futuro o reconocer lo dicho en una conversación, dinámico ya que el entorno puede cambiar mientras el agente actúa puede ser interrumpido, pueden haber ruidos,etc, y por ultimo continuo ya que las señales de voz son ondas en el tiempo.</body>
 
 ## 2. Robot aspirador domestico 
 - **Performance:** ...
+Poder limpiar eficientemente el suelo asignado, lo capaz que es de detectar y evitar obstáculos, la autonomía con la que es capaz de hacerlo.
 
 - **Environment:** ...
-
+Interior de una casa, estructura del edificio, muebles, suciedad, presencia de personas y mascotas, diferentes tipos de suelos y alfombras.
+Es parciamente observable, estocastico, secuencial, dinamico y continuo.
 - **Actuators:** ...
-
+Ruedas para el movimiento, cepillos y sistemas de succión para la limpieza, luces o indicadores para mostrar el estado del robot, mapeo y navegación para planificar rutas de limpieza.
 - **Sensors:** ...
+Odometros, sensores LIDAR, sensores de colisión, sensores de suciedad. 
+<body>Es parcialmente observable, ya que no se puede conocer completamente la casa o el edificio en todo momento, solo percibe lo que sus sensores le permiten detectar, es estocástico ya que el estado del robot cambia de manera impredecible (puede haber personas, objetos movidos anteriormente, etc.), es secuencial, ya que decision afecta al futuro, dinamico ya que el entorno puede cambiar mientras el robot actua y es continuo ya que hay una infinidad de estados posibles y cambian con respecto al tiempo</body>
 
 ## 3. Sistema de recomendación de streaming
 - **Performance:** ...
@@ -27,6 +36,8 @@
 
 - **Sensors:** ...
 
+<body>Se escogió</body>
+
 ## 4. Vehículo autónomo en ciudad
 - **Performance:** ...
 
@@ -35,6 +46,8 @@
 - **Actuators:** ...
 
 - **Sensors:** ...
+
+<body>Se escogió</body>
 
 ## 5. Agente de trading algorítmico en bolsa
 - **Performance:** ...
@@ -45,6 +58,8 @@
 
 - **Sensors:** ...
 
+<body>Se escogió</body>
+
 ## 6. Sistema de diagnóstico médico asistido por IA
 - **Performance:** ...
 
@@ -54,6 +69,8 @@
 
 - **Sensors:** ...
 
+<body>Se escogió</body>
+
 ## 7. Dron de inspección de infraestructuras
 - **Performance:** ...
 
@@ -62,6 +79,7 @@
 - **Actuators:** ...
 
 - **Sensors:** ...
+<body>Se escogió</body>
 
 ## 8. Agente jugador de ajedrez
 - **Performance:** ...
@@ -71,3 +89,5 @@
 - **Actuators:** ...
 
 - **Sensors:** ...
+
+<body>Se escogió</body>
