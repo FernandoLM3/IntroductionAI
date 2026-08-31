@@ -1,7 +1,8 @@
 # Reporte Ejercicio 1
 
 ## ¿Qué agentes lograron salir con el oro en tu mapa y cuáles no?
-Los unicos agentes que lograron salir con el oro en mi mapa fueron el agente basado en utilidad y el agente que aprende de sus pasos 
+Los unicos agentes que lograron salir con el oro en mi mapa fueron el agente basado en utilidad y el agente que aprende de sus pasos, todos los demás agentes no lograron salir con el oro ya que se quedaban dando vueltas en el mismo lugar sin poder salir del laberinto.
 ## ¿Por qué el agente de reflejo simple falla (o tiene suerte) en tu diseño?
-
+Falla ya que el agente de reflejo simple no tiene la capacidad de planificar ni de recordar sus pasos anteriores, por lo que se queda atrapado en ciclos sin poder encontrar la salida. Su comportamiento depende únicamente de las percepciones inmediatas, lo que lo hace ineficiente en un entorno más complejo como el laberinto.
 ## ¿Cómo cambia el resultado del agente basado en modelo si acercas o alejas un pit de la casilla inicial?
+Cuando acercas un pit a la casilla inicial, el agente basado en modelo puede ajustar su comportamiento para evitar esa zona peligrosa, lo que mejora sus posibilidades de salir con el oro. Por otro lado, si alejas un pit de la casilla inicial, el agente puede tener más libertad para explorar el laberinto sin preocuparse por los peligros inmediatos, lo que también puede aumentar sus posibilidades de éxito. En general, la ubicación de los pits afecta directamente la estrategia del agente basado en modelo y su capacidad para planificar una ruta segura hacia el oro y la salida.
