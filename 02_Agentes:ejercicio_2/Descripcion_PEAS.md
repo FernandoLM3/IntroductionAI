@@ -29,36 +29,41 @@ Odometros, sensores LIDAR, sensores de colisión, sensores de suciedad.
 
 ## 3. Sistema de recomendación de streaming
 - **Performance:** ...
+Tiempo de reproducción de contenido, satisfacción del usuario, porcentaje de contenido que el usuario empieza a ver gracias a las recomendaciones.
 
 - **Environment:** ...
-
+Catalogo de contenido, la base de usuarios, plataforma en la que se encuentra el sistema de recomendacion. 
+Es parcialmente observable, estocástico, secuencial, dinámico y discreto.
 - **Actuators:** ...
-
+La interfaz de usuario, envíos de notificaciones, miniaturas o posters basados en los gustos del usuario.
 - **Sensors:** ...
+Historial del usuario, interacciones con el contenido de la plataforma, botones de me gusta, valoraciones, tiempo de reproducción.
 
-<body>Se escogió</body>
+<body>Es parcialmente observable, ya que el sistema no tiene acceso a las emociones o reacciones del usuario, estocástico porque una recomendación no siempre quiere decir que el usuario verá el contenido, secuencial ya que al recomendar cierto titulo afecta en el historial y contenido consumido por el usuario haciendo que puedan surgir nuevas recomendaciones, dinámico ya que el contenido va cambiando y los gustos del usuario pueden cambiar, y por ultimo discreto, ya que cada sistema de streaming tiene un catalogo de titulos finito en el cual el sistema puede escoger para recomendar.</body>
 
 ## 4. Vehículo autónomo en ciudad
 - **Performance:** ...
-
+Seguridad en la conducción evitando percances, eficiencia en los tiempos de trayecto, cumplimiento de las normas de tráfico, comodidad del usuario al evitar frenazos y acelerones.
 - **Environment:** ...
-
+Carreteras, cambio de condiciones climáticas, presencia de peatones, ciclistas y otros vehiculos, obstaculos en la vía.
+Es parcialmente observable, estocástico, secuencial, dinámico y continuo.
 - **Actuators:** ...
-
+Volante, acelerador, frenos, luces, pantalla de comunicación con el usuario, señalización exterior.
 - **Sensors:** ...
-
-<body>Se escogió</body>
+Cámaras, radares, GPS de alta precisión, sensores de proximidad.
+<body>Parcialmente continuo ya que el agente no puede ver toda la ciudad, se debe anticipar a los cambios en el entorno, estocástico porque existen cambios en el entorno no pueden ser tan facilmente predecibles, secuencial porque las acciones tomadas afectan al futuro, dinámico ya que el entorno cambia constantemente y por ultimo continuo porque hay infinitas variables de entrada y salida.</body>
 
 ## 5. Agente de trading algorítmico en bolsa
 - **Performance:** ...
-
+Ratio de ganancias/perdidas de lo invertido, capacidad de adaptarse a cambios en el mercado, velocidad de ejecución de las operaciones.
 - **Environment:** ...
-
+Bolsas de valores, APIs de datos financieros, regulaciones del mercado. 
+Es dinámico y parcialmente observable.
 - **Actuators:** ...
-
+Ordenes de compra y venta de acciones, gestión y modificación de ordenes.
 - **Sensors:** ...
-
-<body>Se escogió</body>
+Precios de las acciones, indicadores financieros, noticias económicas, saldo disponible.
+<body>Es dinámico ya que los precios son volatiles y parcialmente observable ya que no se puede conocer con certeza el comportamiento futuro del mercado, además de las intenciones de otros agentes o información no publica sobre las acciones.</body>
 
 ## 6. Sistema de diagnóstico médico asistido por IA
 - **Performance:** ...
