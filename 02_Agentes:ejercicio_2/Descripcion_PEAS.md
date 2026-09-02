@@ -67,32 +67,36 @@ Precios de las acciones, indicadores financieros, noticias económicas, saldo di
 
 ## 6. Sistema de diagnóstico médico asistido por IA
 - **Performance:** ...
-
+Capacidad para detectar enfermedades correctamente, capacidad para ofrecer diagnosticos precisos y confiables, velocidad de análisis de los datos médicos.
 - **Environment:** ...
-
+Bases de datos médicas, historiales clínicos de pacientes, farmacología.
+Parcialmente observable.
 - **Actuators:** ...
-
+Interfaz, generación de informes médicos, solicitar estudios adicionales, mostrar recomendacion de tratamiento.
 - **Sensors:** ...
-
-<body>Se escogió</body>
+Sintomas, signos vitales, expedientes médicos, resultados de pruebas de laboratorio.
+<body>Parcialmente observable ya que no se puede conocer toda la información sobre el paciente, pueden haber sintomas que aun no se presenten.</body>
 
 ## 7. Dron de inspección de infraestructuras
 - **Performance:** ...
-
+Porcentaje de cobertura de la infraestructura inspeccionada, tiempo de inspección, calidad de las imágenes, seguridad de vuelo.
 - **Environment:** ...
-
+Puentes, torres electricas, edificios, condiciones climáticas, obstáculos en el entorno.
+Parcialmente observable, estocástico y continuo.
 - **Actuators:** ...
-
+Motores para el vuelo, controles de aceleración y dirección, sistema de comunicación para transmitir datos.
 - **Sensors:** ...
-<body>Se escogió</body>
+Captura de imagenes, sensores de proximidad, GPS, giroscopios, barometros.
+<body>Parcialmente observable ya que el dron no puede ver toda la estructura a la vez, estocástico ya que el dron puede verse afectado por el clima, obstaculos o posibles errores y continuo ya que existen multiples variables en constante cambio como la posición, velocidad, orientación, etc.</body>
 
 ## 8. Agente jugador de ajedrez
 - **Performance:** ...
-
+Ganar las partidas, minimizar el tiempo de respuesta, respetar las reglas del juego, adaptarse a diferentes estilos de juego del oponente.
 - **Environment:** ...
-
+Tablero de ajedrez, piezas del agente y del oponente, reloj de tiempo, posiciones actualez.
+Completamente observable, determinista, secuencial, dinámico y discreto.
 - **Actuators:** ...
-
+Realizar movimientos de las piezas, seleccionar la pieza a mover.
 - **Sensors:** ...
-
-<body>Se escogió</body>
+Posición de las piezas, movimientos realizados por el oponente, tiempo restante en el reloj, situación de la partida.
+<body>Es completamente observable ya que todas las piezas son visibles para ambos jugadores, es determinista porque los movimientos producen un estado conocido, secuencial ya que cada movimiento afecta a las decisiones futuras, dinámico porque el entorno cambia con cada movimiento que realiza el oponente y esta el tema del tiempo y por ultimo discreto ya que existe un número finito de casillas, piezas y un conjunto limitado de movimientos válidos </body>
