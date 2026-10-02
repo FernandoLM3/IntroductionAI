@@ -1,0 +1,14 @@
+# secretos
+.env
+
+# persistencia local de ChromaDB
+chroma/
+
+# python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# sistema
+.DS_Store
